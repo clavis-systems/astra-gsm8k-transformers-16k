@@ -1,0 +1,189 @@
+{
+ "n_domande": 200,
+ "n_primarie": 100,
+ "corse": {
+  "base__diretto__c1": {
+   "primarie": {
+    "n": 100,
+    "giuste_strette": 47,
+    "acc_stretta": 0.47,
+    "ic95_stretta": [
+     0.3751,
+     0.5671
+    ],
+    "acc_lenta": 0.47,
+    "quota_tagliate": 0.11,
+    "token_medi": 612.2,
+    "senza_boxed": 11,
+    "tetti": [
+     2048
+    ]
+   },
+   "tutte": {
+    "n": 100,
+    "giuste_strette": 47,
+    "acc_stretta": 0.47,
+    "ic95_stretta": [
+     0.3751,
+     0.5671
+    ],
+    "acc_lenta": 0.47,
+    "quota_tagliate": 0.11,
+    "token_medi": 612.2,
+    "senza_boxed": 11,
+    "tetti": [
+     2048
+    ]
+   }
+  },
+  "base__pensa__c1": {
+   "primarie": {
+    "n": 100,
+    "giuste_strette": 7,
+    "acc_stretta": 0.07,
+    "ic95_stretta": [
+     0.0343,
+     0.1375
+    ],
+    "acc_lenta": 0.13,
+    "quota_tagliate": 0.93,
+    "token_medi": 15564.1,
+    "senza_boxed": 61,
+    "tetti": [
+     16384
+    ]
+   },
+   "tutte": {
+    "n": 100,
+    "giuste_strette": 7,
+    "acc_stretta": 0.07,
+    "ic95_stretta": [
+     0.0343,
+     0.1375
+    ],
+    "acc_lenta": 0.13,
+    "quota_tagliate": 0.93,
+    "token_medi": 15564.1,
+    "senza_boxed": 61,
+    "tetti": [
+     16384
+    ]
+   }
+  },
+  "modificato__diretto__c1": {
+   "primarie": {
+    "n": 100,
+    "giuste_strette": 43,
+    "acc_stretta": 0.43,
+    "ic95_stretta": [
+     0.3373,
+     0.5278
+    ],
+    "acc_lenta": 0.43,
+    "quota_tagliate": 0.09,
+    "token_medi": 615.0,
+    "senza_boxed": 9,
+    "tetti": [
+     2048
+    ]
+   },
+   "tutte": {
+    "n": 100,
+    "giuste_strette": 43,
+    "acc_stretta": 0.43,
+    "ic95_stretta": [
+     0.3373,
+     0.5278
+    ],
+    "acc_lenta": 0.43,
+    "quota_tagliate": 0.09,
+    "token_medi": 615.0,
+    "senza_boxed": 9,
+    "tetti": [
+     2048
+    ]
+   }
+  },
+  "modificato__pensa__c1": {
+   "primarie": {
+    "n": 100,
+    "giuste_strette": 50,
+    "acc_stretta": 0.5,
+    "ic95_stretta": [
+     0.4038,
+     0.5962
+    ],
+    "acc_lenta": 0.55,
+    "quota_tagliate": 0.34,
+    "token_medi": 11818.0,
+    "senza_boxed": 31,
+    "tetti": [
+     16384
+    ]
+   },
+   "tutte": {
+    "n": 100,
+    "giuste_strette": 50,
+    "acc_stretta": 0.5,
+    "ic95_stretta": [
+     0.4038,
+     0.5962
+    ],
+    "acc_lenta": 0.55,
+    "quota_tagliate": 0.34,
+    "token_medi": 11818.0,
+    "senza_boxed": 31,
+    "tetti": [
+     16384
+    ]
+   }
+  }
+ },
+ "appaiato": {
+  "pensa__c1": {
+   "primarie": {
+    "n": 100,
+    "entrambi_giusti": 7,
+    "solo_modificato": 43,
+    "solo_base": 0,
+    "nessuno": 50
+   },
+   "tutte": {
+    "n": 100,
+    "entrambi_giusti": 7,
+    "solo_modificato": 43,
+    "solo_base": 0,
+    "nessuno": 50
+   }
+  },
+  "diretto__c1": {
+   "primarie": {
+    "n": 100,
+    "entrambi_giusti": 36,
+    "solo_modificato": 7,
+    "solo_base": 11,
+    "nessuno": 46
+   },
+   "tutte": {
+    "n": 100,
+    "entrambi_giusti": 36,
+    "solo_modificato": 7,
+    "solo_base": 11,
+    "nessuno": 46
+   }
+  }
+ },
+ "verdetto": {
+  "esito": "REPLICA",
+  "differenza_punti": 43.0,
+  "intervalli_disgiunti": true,
+  "base": 0.07,
+  "modificato": 0.5,
+  "n": 100,
+  "tetto": 16384,
+  "soglia_modificato": 0.4,
+  "meccanismo_tagliate": true,
+  "tagliate_base": 0.93,
+  "tagliate_modificato": 0.34
+ }
+}

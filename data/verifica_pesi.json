@@ -1,0 +1,59 @@
+{
+ "revisione_base": "2fc06364715b967f1860aea9cf38778875588b17",
+ "sha256_file_base": "04b1c301231dd422b8860db31311ab2721511346a32cb1e079c4c4e5f1fe4696",
+ "sha256_file_modificato": "fd1e42acdd118ac1b300d37500fd2885e75f5a09de3a33010d802bf7f737b553",
+ "codice": {
+  "apply_edit.py": "d2b627a6cf344f309cca4bcab4ff6ccc6ad1c8f29cabda78d11f99c19d1b1c5d",
+  "st_numpy.py": "3c4e532fb8edf374e1a4636aa806a04d062f824943eaf4bca0d3af5b0e7dca40"
+ },
+ "manifesto": {
+  "manifest.json": "83185c1db46e3dafb34af645f8c5ce033c09cc99d4512b9e1b8e3aba9d269225",
+  "edit.npz": "e92a92aafd1f1068b4fd94aa0fbe081ba3ddea2047ee7bcac7161d861be299e7"
+ },
+ "confronto": {
+  "solo_base": [],
+  "solo_modificato": [],
+  "diversi": {
+   "model.language_model.layers.15.mlp.down_proj.weight": {
+    "forma_base": [
+     1024,
+     3584
+    ],
+    "forma_modificato": [
+     1024,
+     3584
+    ],
+    "tipo": "BF16",
+    "sha_base": "ef60d2c687bab19464dca9c8bfd7777e46ad226df0c9e25643b0bab04b5a1cca",
+    "sha_modificato": "82e2d733ea64feaeb4af93a1e065641d3df98b494a8b7576ef2f52e90fe2ee53",
+    "voci_diverse": 65260
+   },
+   "model.language_model.layers.19.mlp.down_proj.weight": {
+    "forma_base": [
+     1024,
+     3584
+    ],
+    "forma_modificato": [
+     1024,
+     3584
+    ],
+    "tipo": "BF16",
+    "sha_base": "638eedeb701b94aa861f4438e615c07ec6c60ee703db1bfee2de577bb6498c3e",
+    "sha_modificato": "8ef3c61bc36af113ad58e89dbb0a4a14dcba5a45cb750c15ab515c82ddd12eb2",
+    "voci_diverse": 64928
+   }
+  },
+  "totale_voci": 873438784,
+  "voci_modello_di_testo": 752393024,
+  "tensori_confrontati": 488
+ },
+ "controlli": {
+  "stessi_nomi": true,
+  "cambiano_solo_i_tensori_del_manifesto": true,
+  "voci_diverse_come_nel_manifesto": true,
+  "impronte_come_nel_manifesto": true
+ },
+ "voci_cambiate": 130188,
+ "quota_cambiata_su_tutto_il_file": 0.00014905223169022914,
+ "quota_cambiata_sul_modello_di_testo": 0.0001730319073240105
+}
