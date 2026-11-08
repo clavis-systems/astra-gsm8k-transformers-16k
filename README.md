@@ -46,6 +46,22 @@ It is a further confirmation, not the first. JonathanColetti had already rerun t
 engine, and other checks are collected in the issues of the
 [authors' log repository](https://github.com/RikiyaT/lm_understand-logs/issues).
 
+## Another researcher re-ran this protocol
+
+On 8 November 2026 [HedonismJesse](https://github.com/HedonismJesse) posted a re-run of this protocol on five versions
+of the weights, with the 100 primary questions in `data/domande.jsonl`, the same batch seeds, and predictions written
+down before the results: [the comment with the results](https://github.com/RikiyaT/lm_understand-logs/issues/8#issuecomment-6719824287).
+
+| | their run | this repository |
+|---|---|---|
+| Thinking on, original / edited, right of 100 | 12 / 54 | 7 / 50 (49 with a judge that keeps units) |
+| Thinking on, right only with the edit / only without it | 42 / 0 | 43 / 0 (42 / 0 with that judge) |
+| Thinking off, original / edited, right of 100 | 46 / 45 | 47 / 43 |
+| Thinking off, right only with the edit / only without it | 10 / 11 | 7 / 11 |
+
+These are their numbers: I have not recomputed them. Each run has one sample per problem, so the thinking-off
+differences are compatible with no change.
+
 ## How it was done
 
 1. **Weights.**
